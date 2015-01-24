@@ -181,3 +181,13 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+/academycard2000443.pdf
+/academycard2000443.png
+/00-Telerik-Academy-Opening.pptx
+/01-CSharp-Part-I-Course-Introduction.pptx
+/02-Introduction-to-Programming.pptx
+/03-Primitive-Data-Types-and-Variables.pptx
+/04-Operators-Expressions-and-Statements.pptx
+/05-Console-Input-Output.pptx
+/06-Conditional-Statements.pptx
+/07-Loops.pptx
