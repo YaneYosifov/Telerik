@@ -12,13 +12,11 @@ public class DownloadFile
 {
     public static void Main()
     {
+        WebClient client = new WebClient();
         try
         {
-            using (WebClient client = new WebClient())
-            {
-                client.DownloadFile("http://telerikacademy.com/Content/Images/news-img01.png", "news-img01.png");
-                Console.WriteLine("Download complete!");
-            }
+            client.DownloadFile("http://telerikacademy.com/Content/Images/news-img01.png", "news-img01.png");
+            Console.WriteLine("Download complete!");
         }
         catch (WebException e)
         {
@@ -110,6 +108,10 @@ public class DownloadFile
         catch (Exception)
         {
             Console.Error.WriteLine("An error occured.");
+        }
+        finally
+        {
+            client.Dispose();
         }
     }
 }
