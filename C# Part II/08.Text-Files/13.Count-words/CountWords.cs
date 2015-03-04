@@ -11,13 +11,15 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Security;
+using System.Linq;
 class CountWords
 {
     static void Result(Dictionary<string, int> dict)
     {
+        var sortedDict = from entry in dict orderby entry.Value ascending select entry;
         StreamWriter writerResult;
         writerResult = CatchExceptionsWriter("result.txt");
-        foreach (var entry in dict)
+        foreach (var entry in sortedDict)
         {
             writerResult.WriteLine("[{0} {1}]", entry.Key, entry.Value);
         }
