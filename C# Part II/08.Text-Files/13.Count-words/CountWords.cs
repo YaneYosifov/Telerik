@@ -16,7 +16,7 @@ class CountWords
 {
     static void Result(Dictionary<string, int> dict)
     {
-        var sortedDict = from entry in dict orderby entry.Value ascending select entry;
+        var sortedDict = from entry in dict orderby entry.Value descending select entry;
         StreamWriter writerResult;
         writerResult = CatchExceptionsWriter("result.txt");
         foreach (var entry in sortedDict)
