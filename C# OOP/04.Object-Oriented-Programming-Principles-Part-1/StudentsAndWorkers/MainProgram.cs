@@ -1,5 +1,4 @@
 ﻿/* Problem 2. Students and workers
-
  * Define abstract class Human with a first name and a last name. 
    Define a new class Student which is derived from Human and has 
    a new field – grade. Define class Worker derived from Human 
