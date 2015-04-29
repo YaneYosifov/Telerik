@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Ticket-CSS", "01.Ticket-CSS\01.Ticket-CSS.csproj", "{CDBC3AC2-E13E-4E9D-AA2C-93243904B984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.International-Employees", "02.International-Employees\02.International-Employees.csproj", "{D69DB67C-E2E8-41C5-AA5E-7783FC1CFE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Forum-Posts", "03.Forum-Posts\03.Forum-Posts.csproj", "{8330788C-6ECA-4180-A8CB-8A2433054DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDBC3AC2-E13E-4E9D-AA2C-93243904B984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBC3AC2-E13E-4E9D-AA2C-93243904B984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBC3AC2-E13E-4E9D-AA2C-93243904B984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBC3AC2-E13E-4E9D-AA2C-93243904B984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69DB67C-E2E8-41C5-AA5E-7783FC1CFE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69DB67C-E2E8-41C5-AA5E-7783FC1CFE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69DB67C-E2E8-41C5-AA5E-7783FC1CFE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69DB67C-E2E8-41C5-AA5E-7783FC1CFE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8330788C-6ECA-4180-A8CB-8A2433054DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8330788C-6ECA-4180-A8CB-8A2433054DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8330788C-6ECA-4180-A8CB-8A2433054DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8330788C-6ECA-4180-A8CB-8A2433054DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

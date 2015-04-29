@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #A9A9A9;
+}
+
+header {
+    color: #FBFBFB;
+}
+
+h1:not(:only-child), nav {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1:not(:only-child) {
+    font-size: 40px;
+}
+
+h1:only-child {
+    font-size: 25px;
+}
+
+nav a {
+    color: #FBFBFB;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        background-color: #D3D3D3;
+    }
+
+    nav a:focus {
+        text-decoration: underline;
+    }
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+body > footer {
+    text-align: center;
+}
+
+footer > p {
+    font-size: 13px;
+}
+
+article > p {
+    text-align: justify;
+}

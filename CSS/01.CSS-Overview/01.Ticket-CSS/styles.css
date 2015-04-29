@@ -1,0 +1,49 @@
+﻿h1, dt, dd, #dot {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #595959;
+    font: 12px Arial;
+}
+
+h1 {
+    color: #BBBBBB;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+dt {
+    color: #FFFFFF;
+    text-align: left;
+    float: left;
+    font-style: italic;
+}
+
+dd {
+    color: #FFF2B2;
+    padding-left: 110px;
+    padding-bottom: 15px;
+}
+
+#nosupport {
+    color: #FF0000;
+}
+
+#noanswer {
+    color: #E06B1E;
+}
+
+#dot {
+    font-size: 20px;
+    color: #71B47A;
+}
+
+dt:first-of-type {
+    padding-top: 7px;
+}
+
+.timeaction {
+    color: #BBBBBB;
+}
