@@ -1,13 +1,14 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html class="" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Windows Calculator</title>
-    <link href="styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <div class="calc-window">
-        <img src="icon.png" alt="Calculator" id="icon" /> <span id="window-title">Calculator</span>
-        <img src="min-max-close.png" alt="Minimize, Maximize, Close" id="min-max-close" />
+        <img src="icon.png" alt="Calculator" id="icon"> <span id="window-title">Calculator</span>
+        <img src="min-max-close.png" alt="Minimize, Maximize, Close" id="min-max-close">
         <div class="main-content-outline">
             <div class="main-content-inline">
                 <div class="menu">
@@ -22,92 +23,126 @@
                 </div>
                 <div class="binary-outline">
                     <div class="binary-inline">
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <br /><span class="decimal-digits-left">63</span>
-                        <span class="decimal-digits-middle">47</span>
-                        <span>32</span>
-                        <br /><span class="binary-digits">0000</span>
-                        <span class="binary-digits">0000</span>
-                        <span class="binary-digits">1000</span>
-                        <span class="binary-digits">0111</span>
-                        <span class="binary-digits">0001</span>
-                        <span class="binary-digits">1011</span>
-                        <span class="binary-digits">1011</span>
-                        <span class="binary-digits">0111</span>
-                        <br /><span class="decimal-digits-left">31</span>
-                        <span class="decimal-digits-middle">15</span>
-                        <span>&nbsp;0</span>
+                        <div class="justify">
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="stretch"></span>
+                        </div>
+                        <div class="justify">
+                            <span class="four-digits">63&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">47&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;32</span>
+                            <span class="stretch"></span>
+                        </div>
+                        <div class="justify">
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">0000</span>
+                            <span class="four-digits">1000</span>
+                            <span class="four-digits">0111</span>
+                            <span class="four-digits">0001</span>
+                            <span class="four-digits">1011</span>
+                            <span class="four-digits">1011</span>
+                            <span class="four-digits">0111</span>
+                            <span class="stretch"></span>
+                        </div>
+                        <div class="justify">
+                            <span class="four-digits">31&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">15&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="four-digits">&nbsp;&nbsp;&nbsp;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;0</span>
+                            <span class="stretch"></span>
+                        </div>
                     </div>
                 </div>
                 <div class="buttons">
-                    <button>&nbsp;</button>
-                    <button class="operations">Mod</button>
-                    <button class="inactive">A</button>
-                    <button class="memory">MC</button>
-                    <button class="memory">MR</button>
-                    <button class="memory">MS</button>
-                    <button class="memory">M+</button>
-                    <button class="memory">M-</button>
-                    <br /><button class="operations">(</button>
-                    <button class="operations">)</button>
-                    <button class="inactive">B</button>
-                    <button class="operations"><b>&larr;</b></button>
-                    <button class="operations">CE</button>
-                    <button class="operations">C</button>
-                    <button class="operations">&plusmn;</button>
-                    <button class="inactive">&radic;</button>
-                    <br /><button class="operations">RoL</button>
-                    <button class="operations">RoR</button>
-                    <button class="inactive">C</button>
-                    <button class="digit">7</button>
-                    <button class="digit">8</button>
-                    <button class="digit">9</button>
-                    <button class="operations">/</button>
-                    <button class="inactive">%</button>
-                    <br /><button class="operations">Or</button>
-                    <button class="operations">Xor</button>
-                    <button class="inactive">D</button>
-                    <button class="digit">4</button>
-                    <button class="digit">5</button>
-                    <button class="digit">6</button>
-                    <button class="operations">*</button>
-                    <button class="inactive">1/x</button>
-                    <br /><button class="operations">Lsh</button>
-                    <button class="operations">Rsh</button>
-                    <button class="inactive">E</button>
-                    <button class="digit">1</button>
-                    <button class="digit">2</button>
-                    <button class="digit">3</button>
-                    <button class="operations">-</button>
-                    <button id="equals" class="operations"><b>=</b></button>
-                    <br /><button class="operations">Not</button>
-                    <button class="operations">And</button>
-                    <button class="inactive">F</button>
-                    <button id="zero" class="digit">0</button>
-                    <button class="inactive">.</button>
-                    <button class="operations">+</button>
+                    <span class="nowrap">
+                        <button>&nbsp;</button>
+                        <button class="operations">Mod</button>
+                        <button class="inactive">A</button>
+                        <button class="memory">MC</button>
+                        <button class="memory">MR</button>
+                        <button class="memory">MS</button>
+                        <button class="memory">M+</button>
+                        <button class="memory">M-</button>
+                    </span>
+                    <span class="nowrap">
+                        <button class="operations">(</button>
+                        <button class="operations">)</button>
+                        <button class="inactive">B</button>
+                        <button class="operations"><b>←</b></button>
+                        <button class="operations">CE</button>
+                        <button class="operations">C</button>
+                        <button class="operations">±</button>
+                        <button class="inactive">√</button>
+                    </span>
+                    <span class="nowrap">
+                        <button class="operations">RoL</button>
+                        <button class="operations">RoR</button>
+                        <button class="inactive">C</button>
+                        <button class="digit">7</button>
+                        <button class="digit">8</button>
+                        <button class="digit">9</button>
+                        <button class="operations">/</button>
+                        <button class="inactive">%</button>
+                    </span>
+                    <span class="nowrap">
+                        <button class="operations">Or</button>
+                        <button class="operations">Xor</button>
+                        <button class="inactive">D</button>
+                        <button class="digit">4</button>
+                        <button class="digit">5</button>
+                        <button class="digit">6</button>
+                        <button class="operations">*</button>
+                        <button class="inactive">1/x</button>
+                    </span>
+                    <span class="nowrap">
+                        <button id="equals" class="operations"><b>=</b></button>
+                        <button class="operations">Lsh</button>
+                        <button class="operations">Rsh</button>
+                        <button class="inactive">E</button>
+                        <button class="digit">1</button>
+                        <button class="digit">2</button>
+                        <button class="digit">3</button>
+                        <button class="operations">-</button>
+                        <br><button class="operations">Not</button>
+                        <button class="operations">And</button>
+                        <button class="inactive">F</button>
+                        <button id="zero" class="digit">0</button>
+                        <button class="inactive">.</button>
+                        <button class="operations">+</button>
+                    </span>
                 </div>
                 <div class="units">
-                    <input type="radio" name="units" id="hex" /><label for="hex">Hex</label>
-                    <br /><input type="radio" name="units" id="dec" /><label for="dec">Dec</label>
-                    <br /><input type="radio" name="units" id="oct" /><label for="oct">Oct</label>
-                    <br /><input type="radio" name="units" id="bin" /><label for="bin">Bin</label>
+                    <input name="units" id="hex" type="radio"><label for="hex">Hex</label>
+                    <br><input name="units" id="dec" type="radio"><label for="dec">Dec</label>
+                    <br><input name="units" id="oct" type="radio"><label for="oct">Oct</label>
+                    <br><input name="units" id="bin" type="radio"><label for="bin">Bin</label>
                 </div>
                 <div class="units">
-                    <input type="radio" name="length" id="qword" /><label for="qword">Qword</label>
-                    <br /><input type="radio" name="length" id="dword" /><label for="dword">Dword</label>
-                    <br /><input type="radio" name="length" id="word" /><label for="word">Word</label>
-                    <br /><input type="radio" name="length" id="byte" /><label for="byte">Byte</label>
+                    <input name="length" id="qword" type="radio"><label for="qword">Qword</label>
+                    <br><input name="length" id="dword" type="radio"><label for="dword">Dword</label>
+                    <br><input name="length" id="word" type="radio"><label for="word">Word</label>
+                    <br><input name="length" id="byte" type="radio"><label for="byte">Byte</label>
                 </div>
             </div>
         </div>
     </div>
+
+
 </body>
 </html>

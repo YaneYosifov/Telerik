@@ -1,4 +1,4 @@
-﻿body, button {
+body, button {
     color: #193457;
     font: 12px Arial;
 }
@@ -120,24 +120,22 @@ div, button {
 }
 
     .binary-outline .binary-inline {
-        width: 398px;
         height: 62px;
         border: 1px solid #FFFFFF;
         font: 13px Consolas;
         padding-top: 2px;
         padding-left: 10px;
+        padding-right: 10px;
     }
 
-        .binary-outline .binary-inline .binary-digits {
-            margin-right: 14.9px;
+        .binary-outline .binary-inline .justify {
+            text-align: justify;
+            height: 15px;
         }
 
-        .binary-outline .binary-inline .decimal-digits-left {
-            margin-right: 181px;
-        }
-
-        .binary-outline .binary-inline .decimal-digits-middle {
-            margin-right: 145px;
+        .binary-outline .binary-inline .stretch {
+            width: 100%;
+            display: inline-block;
         }
 
 .units {
@@ -158,14 +156,20 @@ div, button {
 .buttons {
     float: right;
     border: none;
-    margin-right: 7px;
+    margin-right: 5px;
+    width: 328px;
 }
+
+    .buttons .nowrap {
+        white-space: nowrap;
+    }
 
 button {
     width: 35px;
     height: 30px;
     margin-top: 6px;
-    margin-left: 3px;
+    margin-right: 6px;
+    float: left;
     border: 1px solid #8B9AAC;
     background-color: #D9E4F1;
     vertical-align: middle;
@@ -210,7 +214,6 @@ button {
     button#equals {
         height: 66px;
         float: right;
-        margin-right: 4px;
     }
 
     button b {
