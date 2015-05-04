@@ -1,0 +1,12 @@
+﻿body {
+    font: 18px Consolas;
+    color: #0094ff;
+}
+
+body::first-line {
+    font-weight: bold;
+}
+
+body::first-letter {
+    font: 50px Edwardian Script ITC;
+}
