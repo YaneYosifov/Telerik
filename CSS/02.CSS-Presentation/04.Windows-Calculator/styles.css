@@ -138,8 +138,13 @@ div, button {
             display: inline-block;
         }
 
+        .binary-outline .binary-inline .four-digits {
+            display: inline-flex;
+            line-height: 15px;
+        }
+
 .units {
-    width: 78px;
+    width: 82px;
     height: 97px;
     border: 1px solid #8999AC;
     margin-top: 6px;
