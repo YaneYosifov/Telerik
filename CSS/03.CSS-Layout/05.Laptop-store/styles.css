@@ -1,0 +1,91 @@
+﻿div {
+    font: 28px Corbel;
+    float: left;
+    clear: none;
+    border: 2px solid black;
+    margin: 0;
+}
+
+    div.outline-border {
+        padding: 12px;
+        padding-right: 5px;
+        border-radius: 10px;
+    }
+
+    div#brands {
+        margin: auto;
+        float: none;
+        width: 97%;
+        text-align: center;
+        border: none;
+        border-bottom: 2px solid black;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    div.main-container {
+        width: 676px;
+        padding: 5px;
+        padding-top: 0;
+    }
+
+img {
+    float: left;
+    margin-left: 5px;
+}
+
+fieldset {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    border: 2px solid black;
+    width: 330px;
+    float: left;
+    clear: none;
+    margin-top: 10px;
+}
+
+legend {
+    margin-left: 16%;
+    line-height: 24px;
+}
+
+.laptop {
+    border: none;
+}
+
+span {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.price {
+    margin-left: 29px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    color: deepskyblue;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+form {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 32px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+input[type=range] {
+    width: 230px;
+    height: 70px;
+}
