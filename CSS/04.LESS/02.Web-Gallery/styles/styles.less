@@ -1,0 +1,32 @@
+﻿body {
+    margin-left: 30px;
+    margin-top: 10px;
+
+    > ul {
+        list-style-type: none;
+        display: inline;
+        position: relative;
+
+        > li {
+            float: left;
+            border: 3px solid white;
+
+            > img {
+                width: 90px;
+                height: 90px;
+            }
+
+            ul {
+                list-style-type: none;
+                display: none;
+                padding: 0;
+                padding-top: 10px;
+            }
+
+            &:hover > ul {
+                display: block;
+                position: absolute;
+            }
+        }
+    }
+}

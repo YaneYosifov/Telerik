@@ -1,0 +1,1 @@
+﻿body{margin-left:30px;margin-top:10px}body>ul{list-style-type:none;display:inline;position:relative}body>ul>li{float:left;border:3px solid #fff}body>ul>li>img{width:90px;height:90px}body>ul>li ul{list-style-type:none;display:none;padding:0;padding-top:10px}body>ul>li:hover>ul{display:block;position:absolute}
