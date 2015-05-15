@@ -182,16 +182,16 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-C# Part I/HW Evaluations/
-C# Part I/Presentations/
+Presentations
+*.pptx
+Demos
+HW Evaluations
 /C# Part II/Exam Preparations/Exams/
 /C# Part II/ThunderBird Team
 /Stuff/
 /C# OOP/OOP-Teamwork-Assignment-March-2015.pdf
 /C# OOP/Melon Team
-*.pptx
-Demos
-variant-1-solution
-variant-2-solution
-variant-3-solution
-css-exam-automation-master
+variant-1-solution*
+variant-2-solution*
+variant-3-solution*
+css-exam-automation-master*
