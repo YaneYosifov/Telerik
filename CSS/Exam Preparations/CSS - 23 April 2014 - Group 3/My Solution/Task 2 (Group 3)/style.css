@@ -1,0 +1,75 @@
+.wrapper {
+    width: 960px;
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+}
+
+.content, .content .sub-menu img {
+    display: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 260px;
+    margin-top: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+    .menu > li {
+        background-color: #B6FF00;
+        width: 170px;
+        height: 38px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+        .menu > li:hover .content {
+            display: block;
+        }
+
+        .menu > li > a {
+            text-decoration: none;
+            color: black;
+        }
+
+            .menu > li > a:hover {
+                text-decoration: underline;
+            }
+
+.content .sub-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -38px;
+}
+
+    .content .sub-menu li {
+        width: 540px;
+        background-color: #008000;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+        .content .sub-menu li a:hover + img {
+            display: block;
+        }
+
+        .content .sub-menu li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .content .sub-menu li a:hover {
+                text-decoration: underline;
+            }

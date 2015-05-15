@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+#root {
+    width: 500px;
+    background-color: #205D99;
+    font-size: 14px;
+    font-family: "Arial";
+}
+
+.preview {
+    display: none;
+    overflow: hidden;
+    padding: 15px;
+    padding-bottom: 0;
+    margin-top: 15px;
+}
+
+input[type="radio"]:checked ~ .preview {
+    display: block;
+}
+
+input[type="radio"]:checked ~ label {
+    color: #AECFEE;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    width: 200px;
+    height: 112px;
+    float: left;
+    border: 15px solid #79AEE3;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #E4EFF9;
+    text-align: justify;
+    margin: 0;
+}
+
+.avengers {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+
+    .avengers li {
+        padding-top: 15px;
+        border-bottom: 3px solid #79AEE3;
+        padding-bottom: 15px;
+    }
+
+input[type="radio"] {
+   display: none;
+}
+
+label {
+    color: #E4EFF9;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 29px;
+    font-size: 21px;
+}
