@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form</title>
+    <style>
+        #lastname, #firstname, #email {
+            width: 250px;
+        }
+
+        #state, #countrycode, #areacode {
+            width: 50px;
+        }
+
+        #number {
+            width: 120px;
+        }
+
+        #postal {
+            width: 80px;
+        }
+
+        #country {
+            width: 160px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table tr td {
+            border: 1px solid black;
+        }
+
+        table tr > td:first-child {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        tfoot {
+            text-align: center;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="#">
+        <table width="420" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td width="100"><label for="lastname">Last Name</label></td>
+                    <td><input type="text" name="lastname" id="lastname"></td>
+                </tr>
+                <tr>
+                    <td><label for="firstname">First Name</label></td>
+                    <td><input type="text" name="firstname" id="firstname"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><textarea name="address" cols="30" rows="4" id="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td>
+                        <input type="text" name="city" id="city">
+                        <label for="state">State</label>
+                        <input type="text" name="state" id="state">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="postal">Zip/Postal Code</label></td>
+                    <td><input type="text" name="postal" id="postal"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="bg">Bulgaria</option>
+                            <option value="ru">Russia</option>
+                            <option value="us">USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="countrycode">Phone(contry code, area code, number)</label></td>
+                    <td>
+                        (+<input type="text" name="countrycode" id="countrycode">)
+                        <input type="text" name="areacode" id="areacode">
+                        <input type="text" name="number" id="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">Birth date</label></td>
+                    <td><input type="date" name="bday" id="bday"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Starting date</td>
+                    <td>
+                        <input type="radio" name="startingdate" id="spring" value="spring2015"> <label for="spring">Spring 2015</label>
+                        <input type="radio" name="startingdate" id="summer" value="summer2015"> <label for="summer">Summer 2015</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="comments">Comments/Questions</label></td>
+                    <td><textarea name="comments" id="comments" cols="30" rows="6"></textarea></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submit" value="Submit">
+                        <input type="reset" value="Clean This Form">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
