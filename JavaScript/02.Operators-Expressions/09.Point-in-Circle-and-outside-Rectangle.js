@@ -10,7 +10,6 @@ var pointX = 1,
 
 if (inCircle && !inRectangle) {
     console.log('Inside K & outside of R: YES');
-}
-else {
+} else {
     console.log('Inside K & outside of R: NO');
 }

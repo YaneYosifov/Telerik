@@ -5,10 +5,8 @@
 
 var number = 140;
 if (typeof number != 'number') {
-}
-else if (number % 5 == 0 && number % 7 == 0) {
+} else if (number % 5 == 0 && number % 7 == 0) {
     console.log(number + ' is divisible by 5 and 7');
-}
-else {
+} else {
     console.log(number + ' is not divisible by 5 and 7');
 }

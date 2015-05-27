@@ -5,10 +5,8 @@
 
 var number = 33;
 if (typeof number != 'number') {
-}
-else if (number % 2 == 0) {
+} else if (number % 2 == 0) {
     console.log(number + ' is even');
-}
-else {
+} else {
     console.log(number + ' is odd');
 }

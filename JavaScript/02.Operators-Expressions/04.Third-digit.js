@@ -6,7 +6,6 @@
 var number = 1732;
 if (Math.floor(number / 100) % 10 === 7) {
     console.log('Third digit is 7');
-}
-else {
+} else {
     console.log('Third digit is not 7');
 }
