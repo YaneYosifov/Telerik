@@ -18,6 +18,7 @@ var smallest = numbers[0];
 
 console.log('Before sorting');
 console.log(numbers);
+console.log();
 
 while (numbers.length > 0) {
     for (i = 1; i < numbers.length; i += 1) {
@@ -26,9 +27,8 @@ while (numbers.length > 0) {
             index = i;
         }
     }
-    currentNum = numbers.slice(index, index + 1);
+    currentNum = numbers.splice(index, 1);
     sorted.push(currentNum[0]);
-    numbers.splice(index, 1);
     smallest = numbers[0];
     index = 0;
 }
