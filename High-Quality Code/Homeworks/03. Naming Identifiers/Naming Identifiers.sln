@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. BoolToString Converter", "01. BoolToString Converter\01. BoolToString Converter.csproj", "{417BBCF0-288B-4BDF-8C07-F78DD83E0675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Person Generator", "02. Person Generator\02. Person Generator.csproj", "{AD0CA5EA-B526-43F4-A1DB-46CD0011380B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Mozilla CodeName Checker", "03. Mozilla CodeName Checker\03. Mozilla CodeName Checker.csproj", "{B88AD2E3-2543-4720-A03B-CAA70C9ED510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Minesweeper", "04. Minesweeper\04. Minesweeper.csproj", "{F00E65AA-5749-4FEC-BD38-8C95F0228737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{417BBCF0-288B-4BDF-8C07-F78DD83E0675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417BBCF0-288B-4BDF-8C07-F78DD83E0675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417BBCF0-288B-4BDF-8C07-F78DD83E0675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417BBCF0-288B-4BDF-8C07-F78DD83E0675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0CA5EA-B526-43F4-A1DB-46CD0011380B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0CA5EA-B526-43F4-A1DB-46CD0011380B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0CA5EA-B526-43F4-A1DB-46CD0011380B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0CA5EA-B526-43F4-A1DB-46CD0011380B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88AD2E3-2543-4720-A03B-CAA70C9ED510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88AD2E3-2543-4720-A03B-CAA70C9ED510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88AD2E3-2543-4720-A03B-CAA70C9ED510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88AD2E3-2543-4720-A03B-CAA70C9ED510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00E65AA-5749-4FEC-BD38-8C95F0228737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00E65AA-5749-4FEC-BD38-8C95F0228737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00E65AA-5749-4FEC-BD38-8C95F0228737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00E65AA-5749-4FEC-BD38-8C95F0228737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
