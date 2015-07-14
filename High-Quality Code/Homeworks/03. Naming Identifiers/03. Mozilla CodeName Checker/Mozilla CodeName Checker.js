@@ -1,4 +1,4 @@
-﻿function CheckIfMozilla() {
+﻿function alertIfMozilla() {
     var currentWindow = window,
         browserName = currentWindow.navigator.appCodeName,
         isMozilla = (browserName === "Mozilla");
