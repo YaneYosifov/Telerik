@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. De-cat-coding", "1.De-cat-coding\1. De-cat-coding.csproj", "{549486A7-7ABD-4F02-905A-21D3F2701FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Increasing Absolute Differences", "2.Increasing-Absolute-Differences\2. Increasing Absolute Differences.csproj", "{AA627A21-CF84-455F-8348-52F44D4DF420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Bit Shift Matrix", "3.Bit-Shift-Matrix\3. Bit Shift Matrix.csproj", "{53ACF4F6-40E0-44DB-9C0C-83519DE53D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. CATastrophe", "4.CATastrophe\4. CATastrophe.csproj", "{5E9657AD-DE61-465E-ABFB-7F300A728CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{549486A7-7ABD-4F02-905A-21D3F2701FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549486A7-7ABD-4F02-905A-21D3F2701FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549486A7-7ABD-4F02-905A-21D3F2701FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549486A7-7ABD-4F02-905A-21D3F2701FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA627A21-CF84-455F-8348-52F44D4DF420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA627A21-CF84-455F-8348-52F44D4DF420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA627A21-CF84-455F-8348-52F44D4DF420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA627A21-CF84-455F-8348-52F44D4DF420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53ACF4F6-40E0-44DB-9C0C-83519DE53D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53ACF4F6-40E0-44DB-9C0C-83519DE53D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53ACF4F6-40E0-44DB-9C0C-83519DE53D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53ACF4F6-40E0-44DB-9C0C-83519DE53D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9657AD-DE61-465E-ABFB-7F300A728CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9657AD-DE61-465E-ABFB-7F300A728CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9657AD-DE61-465E-ABFB-7F300A728CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9657AD-DE61-465E-ABFB-7F300A728CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
