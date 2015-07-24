@@ -39,55 +39,57 @@
                 }
             }
 
-            PrintVarsList(varsInMethods, "Methods");
-            PrintVarsList(varsInLoops, "Loops");
-            PrintVarsList(varsInConditionalStatements, "Conditional Statements");
+            PrintVars(varsInMethods, "Methods");
+            PrintVars(varsInLoops, "Loops");
+            PrintVars(varsInConditionalStatements, "Conditional Statements");
         }
 
-        private static void ExtractMatches(string codeLine, List<string> varsList)
+        private static void ExtractMatches(string lineOfCode, List<string> vars)
         {
             string[] primitiveTypes = { "char", "string", "sbyte", "byte", "short", "ushort", "int", "uint", "long", "ulong", "float", "double", "decimal", "bool" };
             foreach (var primitiveType in primitiveTypes)
             {
                 string pattern = Regex.Escape(primitiveType) + @"\s*\??\s+([a-z]\w*)";
-                foreach (Match match in Regex.Matches(codeLine, pattern))
+                foreach (Match match in Regex.Matches(lineOfCode, pattern))
                 {
-                    varsList.Add(match.Groups[1].Value);
+                    vars.Add(match.Groups[1].Value);
                 }
             }
         }
 
-        private static void ExtractMatchesInScope(string[] code, List<string> varsList, int startLine)
+        private static void ExtractMatchesInScope(string[] code, List<string> vars, int lineInScope)
         {
             int openedBrackets = 0;
-            for (int j = startLine; openedBrackets != -1; j++)
+            while (openedBrackets != -1)
             {
-                if (code[j + 1].Contains("{"))
+                if (code[lineInScope + 1].Contains("{"))
                 {
                     openedBrackets++;
                 }
 
                 if (openedBrackets == 0)
                 {
-                    ExtractMatches(code[j], varsList);
+                    ExtractMatches(code[lineInScope], vars);
                 }
 
-                if (code[j + 1].Contains("}"))
+                if (code[lineInScope + 1].Contains("}"))
                 {
                     openedBrackets--;
                 }
+
+                lineInScope++;
             }
         }
 
-        private static void PrintVarsList(List<string> varslist, string varsListName)
+        private static void PrintVars(List<string> vars, string scopeName)
         {
-            if (varslist.Count != 0)
+            if (vars.Count != 0)
             {
-                Console.WriteLine("{0} -> " + varslist.Count + " -> " + string.Join(", ", varslist), varsListName);
+                Console.WriteLine("{0} -> " + vars.Count + " -> " + string.Join(", ", vars), scopeName);
             }
             else
             {
-                Console.WriteLine("{0} -> None", varsListName);
+                Console.WriteLine("{0} -> None", scopeName);
             }
         }
     }
