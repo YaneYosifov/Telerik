@@ -182,6 +182,8 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+# Custom
+.idea
 *.pptx
 Stuff/
 Demos/
