@@ -183,10 +183,10 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 *.pptx
-/Stuff
-/Demos
-/Presentations
-/Study Materials
+Stuff/
+Demos/
+Presentations/
+Study Materials/
 /C# Part II/Exam Preparations/Exams
 /C# Part II/ThunderBird Team
 /C# OOP/OOP-Teamwork-Assignment-March-2015.pdf
