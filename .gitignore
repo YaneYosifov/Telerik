@@ -151,6 +151,7 @@ sql/
 *.Cache
 ClientBin/
 [Ss]tyle[Cc]op.*
+!StyleCop.png
 ~$*
 *~
 *.dbmdl
