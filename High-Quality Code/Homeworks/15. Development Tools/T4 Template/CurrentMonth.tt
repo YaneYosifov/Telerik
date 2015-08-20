@@ -1,0 +1,113 @@
+﻿<#@ template  debug="false" hostSpecific="false" language="C#" #>
+<#@ output extension=".html" #>
+<#@ Assembly Name="System.Core" #>
+<#@ import namespace="System.Globalization" #>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Current month</title>
+		<style>
+			body {
+				padding: 10px;
+				padding-left: 30px;
+			}
+
+			div {
+				width: 200px;
+				text-align: center;
+			}
+
+			table {
+				display: inline-block;
+			}
+
+			table, td {
+				border: 1px solid black;
+				text-align: right;
+			}
+
+			h2 {
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2><#= CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(DateTime.Now.Month) #></h2>
+			<table>
+				<tr>
+				<#  int count = 0;
+					var firstDayOfMonth = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+
+					switch (firstDayOfMonth.DayOfWeek)
+					{
+						case DayOfWeek.Monday:
+							count = 1;
+							break;
+						case DayOfWeek.Tuesday:
+				#>	<td></td> 
+				<#
+							count = 2;
+							break;
+						case DayOfWeek.Wednesday:
+				#>	<td></td>
+					<td></td> 
+				<#
+							count = 3;
+							break;
+						case DayOfWeek.Thursday:
+				#>	<td></td>
+					<td></td>
+					<td></td> 
+				<#
+							count = 4;
+							break;
+						case DayOfWeek.Friday:
+				#>	<td></td>
+					<td></td>
+					<td></td>
+					<td></td> 
+				<#
+							count = 5;
+							break;
+						case DayOfWeek.Saturday:
+				#>	<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td> 
+				<#
+							count = 6;
+							break;
+						case DayOfWeek.Sunday:
+				#>	<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td> 
+				<#
+							count = 7;
+							break;
+					}
+
+					for (int i = 1; i <= DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month); i++)
+					{
+				#>	<td><#= i #></td>
+				<#
+						if (count == 7)
+						{
+				#></tr>
+				<tr>
+				<#
+							count = 0;
+						}
+
+						count++;
+					}
+			#></tr>
+			</table>
+		</div>
+	</body>
+</html>
