@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "username": "Minkov",
+      "passHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "usernameToLower": "minkov",
+      "id": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "authKey": "16655985-e510-43d4-ad1c-2388c76d1ef6FwHCPd*bP:.;Fu&:evl)RPGg"
+    },
+    {
+      "username": "Minkov3",
+      "passHash": "1234567890123456789012345678901234567890",
+      "usernameToLower": "minkov3",
+      "id": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "authKey": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73erxSIAJyVOzIEIrpMFbanscO"
+    },
+    {
+      "username": "Someone1",
+      "passHash": "c833139b5bc1aeb09b9956e56799e98e3958cb30",
+      "usernameToLower": "someone1",
+      "id": "94cf71fd-a820-42df-9f9c-5d4ff0941d5d"
+    },
+    {
+      "username": "blabla",
+      "passHash": "752b27f205f23c37442f8ef98ccad21fc5cc0de8",
+      "usernameToLower": "blabla",
+      "id": "cd108b2b-6f4b-4c6d-9856-b0effb9af7b9"
+    },
+    {
+      "username": "egagrr",
+      "passHash": "d752299aa98569b1ab3ae8fa44757d8a12efff9a",
+      "usernameToLower": "egagrr",
+      "id": "fd6d6281-539e-4202-ab90-53b08e94f896"
+    },
+    {
+      "username": "rthstgdgsd",
+      "passHash": "492ae4489606fbb883056fe167f85fbe32194d08",
+      "usernameToLower": "rthstgdgsd",
+      "id": "c7773ec2-e1f4-482f-8c6f-b203187fdbf2"
+    },
+    {
+      "username": "123",
+      "passHash": "601f1889667efaebb33b8c12572835da3f027f78",
+      "usernameToLower": "123",
+      "id": "c15e41e8-6a4d-451b-8cc0-bc3dbb8c073c",
+      "authKey": "c15e41e8-6a4d-451b-8cc0-bc3dbb8c073cBcXPnpjPatFStpurBjTiGaet"
+    },
+    {
+      "username": "q",
+      "passHash": "1d036b4e9f75a0a7e186560754b4cdbfbab8d8d5",
+      "usernameToLower": "q",
+      "id": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "authKey": "b5ac111b-ffde-4de1-b656-f8fe8a19c118pDnzFfrGVHJSZaplYkWdriXf"
+    },
+    {
+      "username": "б",
+      "passHash": "a2e9f606da125a720a056071d9c769cb68d063af",
+      "usernameToLower": "б",
+      "id": "9fa5491a-e087-4a8a-bb2b-b2f660cebeb1"
+    }
+  ],
+  "cookies": [
+    {
+      "text": "Test",
+      "category": "Home",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 10,
+      "dislikes": 15,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:30.290Z",
+      "id": "2dae28aa-ee64-4bc1-8591-29284d88c9e9"
+    },
+    {
+      "text": "May the Force with you",
+      "category": "WOrk",
+      "userId": "16655985-e510-43d4-ad1c-2388c76d1ef6",
+      "likes": 16,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-09T14:53:56.482Z",
+      "id": "e2fdbf82-54c3-488f-add4-9af3262c2572",
+      "hours": 9
+    },
+    {
+      "text": "Hello!",
+      "category": "Home",
+      "userId": "bd04b3b8-5586-47ad-bf8f-db6c531dbb73",
+      "likes": 11,
+      "dislikes": 9,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T06:24:18.743Z",
+      "id": "ea91a233-bcf3-48b6-933f-05857f4aea87"
+    },
+    {
+      "text": "testtttttttttttttt",
+      "category": "None",
+      "userId": "c15e41e8-6a4d-451b-8cc0-bc3dbb8c073c",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-10T19:01:02.836Z",
+      "id": "f97f524d-862b-4146-afcb-1cb2bef59d50"
+    },
+    {
+      "text": "something",
+      "category": "None",
+      "userId": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-12T15:43:50.687Z",
+      "id": "ffac86db-3287-414b-9384-5d6c1b40d6bd"
+    },
+    {
+      "text": "fshstgtger",
+      "category": "sryhrthsg",
+      "userId": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-12T15:44:30.513Z",
+      "id": "ebb7d451-f256-4c89-936e-1872ede9b347"
+    },
+    {
+      "text": "werfgh",
+      "category": "dfgh",
+      "userId": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-12T15:53:55.857Z",
+      "id": "f70abb98-e750-4baa-a8e3-eb5b0f6580a7"
+    },
+    {
+      "text": "1234",
+      "category": "12345",
+      "userId": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-12T15:54:07.439Z",
+      "id": "0bb17c80-da9b-4c7e-ab7a-10b868b1ba26"
+    },
+    {
+      "text": "dfghjm",
+      "category": "dfghjm",
+      "userId": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-12T15:54:24.580Z",
+      "id": "5f4a1c83-7795-48a3-a6a2-ea634450ce55"
+    },
+    {
+      "text": "blabla",
+      "category": "test",
+      "userId": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-12T15:54:39.860Z",
+      "id": "b6e3bad4-ec1d-4cc7-ad25-eb089445210c"
+    },
+    {
+      "text": "1234",
+      "category": "test",
+      "userId": "b5ac111b-ffde-4de1-b656-f8fe8a19c118",
+      "likes": 0,
+      "dislikes": 0,
+      "img": "https://dayinthelifeofapurpleminion.files.wordpress.com/2014/12/batman-exam.jpg",
+      "shareDate": "2015-09-12T15:54:56.692Z",
+      "id": "1ef092c8-023c-4642-a3d3-87ada40114d0"
+    }
+  ]
+}
