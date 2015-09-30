@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students xmlns:students="urn:https://telerikacademy.com/Forum/Home/BestUsers">
+	<student>
+		<name>Lars Talon</name>
+		<sex>Female</sex>
+		<birthDate>Jun 15, 1979</birthDate>
+		<phone>+359825388102</phone>
+		<email>a.facilisis@aliquetlobortis.co.uk</email>
+		<speciality>Optometry</speciality>
+		<facultyNumber>7405</facultyNumber>
+		<exams>
+			<exam>
+				<name>Theology and Religious Vocations</name>
+				<tutor>Katelyn Ivory</tutor>
+				<score>4</score>
+			</exam>
+			<exam>
+				<name>Transportation and Materials Moving</name>
+				<tutor>Mikayla Aurelia</tutor>
+				<score>5</score>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Isabelle Melyssa</name>
+		<sex>Male</sex>
+		<birthDate>Mar 3, 1976</birthDate>
+		<phone>+359881692997</phone>
+		<email>lobortis.tellus.justo@accumsan.ca</email>
+		<speciality>Natural Resources and Conservation</speciality>
+		<facultyNumber>9545</facultyNumber>
+		<exams>
+			<exam>
+				<name>Chemistry</name>
+				<tutor>Quin Priscilla</tutor>
+				<score>3</score>
+			</exam>
+			<exam>
+				<name>Theology and Religious Vocations</name>
+				<tutor>Ralph Inez</tutor>
+				<score>3</score>
+			</exam>
+			<exam>
+				<name>Computer and Information Sciences and Support Services</name>
+				<tutor>Lenore Christen</tutor>
+				<score>5</score>
+			</exam>
+			<exam>
+				<name>Military</name>
+				<tutor>Elton Vivien</tutor>
+				<score>6</score>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Kiayada Hayden</name>
+		<sex>Female</sex>
+		<birthDate>May 25, 1981</birthDate>
+		<phone>+359820257638</phone>
+		<email>sem.ut.cursus@erat.net</email>
+		<speciality>Geography</speciality>
+		<facultyNumber>4630</facultyNumber>
+		<exams>
+			<exam>
+				<name>Multi-/interdisciplinary Studies</name>
+				<tutor>Sylvester Sophia</tutor>
+				<score>4</score>
+			</exam>
+			<exam>
+				<name>Precision Production Trades (General)</name>
+				<tutor>Baker Fritz</tutor>
+				<score>5</score>
+			</exam>
+			<exam>
+				<name>Physics</name>
+				<tutor>Kelsie Xaviera</tutor>
+				<score>2</score>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Grace Amity</name>
+		<sex>Male</sex>
+		<birthDate>Feb 5, 2015</birthDate>
+		<phone>+359897332270</phone>
+		<email>augue@etcommodo.edu</email>
+		<speciality>Human Services</speciality>
+		<facultyNumber>2925</facultyNumber>
+		<exams>
+			<exam>
+				<name>Dentistry</name>
+				<tutor>Destiny Willa</tutor>
+				<score>6</score>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Brooke Kameko</name>
+		<sex>Female</sex>
+		<birthDate>Oct 1, 2006</birthDate>
+		<phone>+359860541798</phone>
+		<email>ut.ipsum@nonsollicitudina.ca</email>
+		<speciality>Physics</speciality>
+		<facultyNumber>8942</facultyNumber>
+		<exams>
+			<exam>
+				<name>Construction Trades, General</name>
+				<tutor>Josephine Laurel</tutor>
+				<score>6</score>
+			</exam>
+			<exam>
+				<name>Urban and Regional Planning</name>
+				<tutor>Sigourney Hamish</tutor>
+				<score>3</score>
+			</exam>
+			<exam>
+				<name>Physical Sciences</name>
+				<tutor>Dane Fitzgerald</tutor>
+				<score>5</score>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Shelby Brandon</name>
+		<sex>Female</sex>
+		<birthDate>Mar 1, 1978</birthDate>
+		<phone>+359861935879</phone>
+		<email>ornare@Nullaeuneque.edu</email>
+		<speciality>Transportation and Materials Moving</speciality>
+		<facultyNumber>4123</facultyNumber>
+		<exams>
+			<exam>
+				<name>Construction Trades, General</name>
+				<tutor>Zoe Vladimir</tutor>
+				<score>6</score>
+			</exam>
+			<exam>
+				<name>Multi-/interdisciplinary Studies</name>
+				<tutor>Maxwell Ursa</tutor>
+				<score>6</score>
+			</exam>
+		</exams>
+	</student>
+</students>
