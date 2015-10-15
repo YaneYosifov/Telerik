@@ -8,14 +8,14 @@
     {
         public readonly object Model;
 
-        public JsonActionResult(HttpRq rq, object m)
+        public JsonActionResult(HttpRequest request, object model)
         {
-            this.Model = m;
-            this.Request = rq;
+            this.Model = model;
+            this.Request = request;
             this.ResponseHeaders = new List<KeyValuePair<string, string>>();
         }
 
-        public HttpRq Request { get; private set; }
+        public HttpRequest Request { get; private set; }
 
         public List<KeyValuePair<string, string>> ResponseHeaders { get; private set; }
 

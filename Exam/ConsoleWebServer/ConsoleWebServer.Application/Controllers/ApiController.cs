@@ -1,4 +1,4 @@
-﻿namespace ConsoleWebServer.Appliccation
+﻿namespace ConsoleWebServer.Application.Controllers
 {
     using System;
     using System.Linq;
@@ -6,7 +6,7 @@
 
     public class ApiController : Controller
     {
-        public ApiController(HttpRq request)
+        public ApiController(HttpRequest request)
             : base(request)
         {
         }

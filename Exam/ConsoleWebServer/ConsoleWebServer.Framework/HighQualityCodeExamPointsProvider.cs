@@ -7,6 +7,7 @@
             return "application/json";
         }
 
+        // TODO: to remove?
         public int GetMyPoints()
         {
             return 0;

@@ -9,27 +9,26 @@ namespace ConsoleWebServer.Framework
     {
         public HttpResponse GetResponse(string requestAsString)
         {
-            HttpRq request;
+            HttpRequest request;
             try
             {
-                var requestParser = new HttpRq("GET", "/", "1.1");
+                var requestParser = new HttpRequest("GET", "/", "1.1");
                 request = requestParser.Parse(requestAsString);
             }
-            catch (Exception ex)
+            catch (Exception exception)
             {
-                return new HttpResponse(new Version(1, 1), HttpStatusCode.BadRequest, ex.Message);
+                return new HttpResponse(new Version(1, 1), HttpStatusCode.BadRequest, exception.Message);
             }
 
             var response = this.Process(request);
             return response;
         }
 
-        private HttpResponse Process(HttpRq request)
+        private HttpResponse Process(HttpRequest request)
         {
             if (request.Method.ToLower() == "options")
             {
-                var routes =
-                    Assembly.GetEntryAssembly()
+                var routes = Assembly.GetEntryAssembly()
                         .GetTypes()
                         .Where(x => x.Name.EndsWith("Controller") && typeof(Controller).IsAssignableFrom(x))
                         .Select(x => new { x.Name, Methods = x.GetMethods().Where(m => m.ReturnType == typeof(IActionResult)) })
@@ -38,7 +37,7 @@ namespace ConsoleWebServer.Framework
 
                 return new HttpResponse(request.ProtocolVersion, HttpStatusCode.OK, string.Join(Environment.NewLine, routes));
             }
-            else if (new StaticFileHandler().CanHandle(request))
+            else if (new StaticFileHandler().IsHandleable(request))
             {
                 return new StaticFileHandler().Handle(request);
             }
@@ -69,7 +68,7 @@ namespace ConsoleWebServer.Framework
             }
         }
 
-        private Controller CreateController(HttpRq request)
+        private Controller CreateController(HttpRequest request)
         {
             var controllerClassName = request.Action.ControllerName + "Controller";
             var type = Assembly.GetEntryAssembly()

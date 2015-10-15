@@ -2,9 +2,10 @@
 {
     using System.Collections.Generic;
 
+    // TODO: to remove?
     public class ContentActionResultWithCors<TResult> : ContentActionResult
     {
-        public ContentActionResultWithCors(HttpRq request, object model, string corsSettings)
+        public ContentActionResultWithCors(HttpRequest request, object model, string corsSettings)
             : base(request, model)
         {
             this.ResponseHeaders.Add(new KeyValuePair<string, string>("Access-Control-Allow-Origin", corsSettings));

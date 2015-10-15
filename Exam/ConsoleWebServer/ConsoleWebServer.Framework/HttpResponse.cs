@@ -52,12 +52,7 @@
         {
             var stringBuilder = new StringBuilder();
             stringBuilder.AppendLine(
-                string.Format(
-                    "{0}{1} {2} {3}",
-                    "HTTP/",
-                    this.ProtocolVersion,
-                    (int)this.StatusCode,
-                    this.StatusCodeAsString));
+                string.Format("{0}{1} {2} {3}", "HTTP/", this.ProtocolVersion, (int)this.StatusCode, this.StatusCodeAsString));
             var headerStringBuilder = new StringBuilder();
             foreach (var key in this.Headers.Keys)
             {
