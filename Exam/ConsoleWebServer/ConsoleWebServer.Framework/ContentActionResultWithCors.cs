@@ -2,7 +2,6 @@
 {
     using System.Collections.Generic;
 
-    // TODO: to remove?
     public class ContentActionResultWithCors<TResult> : ContentActionResult
     {
         public ContentActionResultWithCors(HttpRequest request, object model, string corsSettings)

@@ -5,7 +5,7 @@ namespace ConsoleWebServer.Framework
     using System.Net;
     using System.Reflection;
 
-    public class ResponseProvider
+    public class ResponseProvider : IResponseProvider
     {
         public HttpResponse GetResponse(string requestAsString)
         {

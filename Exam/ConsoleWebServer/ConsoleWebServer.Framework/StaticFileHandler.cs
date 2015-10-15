@@ -18,7 +18,7 @@
             string filePath = Environment.CurrentDirectory + "/" + request.Uri;
             if (!this.FileExists("C:\\", filePath, 3))
             {
-                return new HttpResponse(request.ProtocolVersion, HttpStatusCode.NotFound, "File not found");
+                return new HttpResponse(request.ProtocolVersion, HttpStatusCode.NotFound, "File not found!");
             }
 
             string fileContents = File.ReadAllText(filePath);
@@ -54,7 +54,6 @@
             }
             catch (Exception)
             {
-                // TODO: improve or delete exception? hidden bug?
                 return false;
             }
         }
