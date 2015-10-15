@@ -84,7 +84,7 @@
     <Compile Include="HttpNotFound.cs" />
     <Compile Include="HttpRequest.cs" />
     <Compile Include="Controller.cs" />
-    <Compile Include="HR.cs" />
+    <Compile Include="HttpResponse.cs" />
     <Compile Include="IActionResult.cs" />
     <Compile Include="IResponseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
