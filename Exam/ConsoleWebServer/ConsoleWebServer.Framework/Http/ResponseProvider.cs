@@ -1,9 +1,10 @@
-namespace ConsoleWebServer.Framework
+namespace ConsoleWebServer.Framework.Http
 {
     using System;
     using System.Linq;
     using System.Net;
     using System.Reflection;
+    using ConsoleWebServer.Framework.ActionCommon;
 
     public class ResponseProvider : IResponseProvider
     {
@@ -26,7 +27,11 @@ namespace ConsoleWebServer.Framework
 
         private HttpResponse Process(HttpRequest request)
         {
-            if (request.Method.ToLower() == "options")
+            if (request.Method.ToLower() == "head")
+            {
+                return new HttpResponse(request.ProtocolVersion, HttpStatusCode.OK, string.Empty);
+            }
+            else if (request.Method.ToLower() == "options")
             {
                 var routes = Assembly.GetEntryAssembly()
                         .GetTypes()

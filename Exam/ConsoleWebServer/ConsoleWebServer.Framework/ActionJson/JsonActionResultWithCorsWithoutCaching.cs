@@ -1,6 +1,7 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionJson
 {
     using System.Collections.Generic;
+    using ConsoleWebServer.Framework.Http;
 
     public class JsonActionResultWithCorsWithoutCaching : JsonActionResult
     {

@@ -1,5 +1,7 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionCommon
 {
+    using ConsoleWebServer.Framework.Http;
+
     /// <summary>
     /// Interface to implement HTTP response
     /// </summary>

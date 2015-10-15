@@ -1,9 +1,10 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.Http
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Text;
+    using ConsoleWebServer.Framework.ActionCommon;
 
     public class HttpRequest
     {

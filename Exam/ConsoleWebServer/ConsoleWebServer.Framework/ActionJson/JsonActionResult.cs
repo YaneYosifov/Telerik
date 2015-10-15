@@ -1,7 +1,9 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionJson
 {
     using System.Collections.Generic;
     using System.Net;
+    using ConsoleWebServer.Framework.ActionCommon;
+    using ConsoleWebServer.Framework.Http;
     using Newtonsoft.Json;
 
     public class JsonActionResult : IActionResult
@@ -35,7 +37,7 @@
                 this.Request.ProtocolVersion, 
                 this.GetStatusCode(), 
                 this.GetContent(),
-                HighQualityCodeExamPointsProvider.GetContentType());
+                ContentProvider.GetContentType());
             foreach (var responseHeader in this.ResponseHeaders)
             {
                 response.AddHeader(responseHeader.Key, responseHeader.Value);

@@ -1,6 +1,7 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.Http
 {
     using System;
+    using ConsoleWebServer.Framework.ActionCommon;
 
     public class HttpNotFound : Exception
     {

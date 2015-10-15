@@ -1,6 +1,7 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionContent
 {
     using System.Collections.Generic;
+    using ConsoleWebServer.Framework.Http;
 
     public class ContentActionResultWithCorsWithoutCaching : ContentActionResult
     {

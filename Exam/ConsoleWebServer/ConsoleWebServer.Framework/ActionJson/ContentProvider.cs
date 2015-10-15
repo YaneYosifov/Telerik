@@ -1,6 +1,6 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionJson
 {
-    internal class HighQualityCodeExamPointsProvider
+    internal static class ContentProvider
     {
         public static string GetContentType()
         {

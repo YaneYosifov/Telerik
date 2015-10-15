@@ -1,4 +1,4 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionCommon
 {
     using System;
     using System.Linq;
@@ -13,18 +13,15 @@
                 new[] { '/', '/', '/', '/', '/' }.ToList().AsEnumerable().AsQueryable().ToArray(),
                 StringSplitOptions.RemoveEmptyEntries);
 
-            this.ControllerName = uriParts.Length >
-                                  0
+            this.ControllerName = uriParts.Length > 0
                 ? uriParts[0]
                 : "Home";
 
-            this.ActionName = uriParts.Length >
-                              1
+            this.ActionName = uriParts.Length > 1
                 ? uriParts[1]
                 : "Index";
 
-            this.Parameter = uriParts.Length >
-                             2
+            this.Parameter = uriParts.Length > 2
                 ? uriParts[2]
                 : "Param";
         }
@@ -37,11 +34,7 @@
 
         public override string ToString()
         {
-            return string.Format(
-                "/{0}/{1}/{2}",
-                this.ControllerName,
-                this.ActionName,
-                this.Parameter);
+            return string.Format("/{0}/{1}/{2}", this.ControllerName, this.ActionName, this.Parameter);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.Http
 {
     /// <summary>
     /// Interface to implement HTTP response

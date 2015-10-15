@@ -69,27 +69,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionInvoker.cs" />
-    <Compile Include="ContentActionResultWithCors.cs" />
-    <Compile Include="ContentActionResultWithCorsWithoutCaching.cs" />
-    <Compile Include="ContentActionResultWithoutCaching.cs" />
-    <Compile Include="HighQualityCodeExamPointsProvider.cs" />
-    <Compile Include="JsonActionResult.cs" />
-    <Compile Include="ContentActionResult.cs" />
-    <Compile Include="JsonActionResultWithCors.cs" />
-    <Compile Include="JsonActionResultWithCorsWithoutCaching.cs" />
-    <Compile Include="JsonActionResultWithoutCaching.cs" />
-    <Compile Include="NewActionInvoker.cs" />
+    <Compile Include="ActionCommon\ActionInvoker.cs" />
+    <Compile Include="ActionContent\ContentActionResultWithCors.cs" />
+    <Compile Include="ActionContent\ContentActionResultWithCorsWithoutCaching.cs" />
+    <Compile Include="ActionContent\ContentActionResultWithoutCaching.cs" />
+    <Compile Include="ActionJson\ContentProvider.cs" />
+    <Compile Include="ActionJson\JsonActionResult.cs" />
+    <Compile Include="ActionContent\ContentActionResult.cs" />
+    <Compile Include="ActionJson\JsonActionResultWithCors.cs" />
+    <Compile Include="ActionJson\JsonActionResultWithCorsWithoutCaching.cs" />
+    <Compile Include="ActionJson\JsonActionResultWithoutCaching.cs" />
+    <Compile Include="ActionCommon\NewActionInvoker.cs" />
+    <Compile Include="RedirectActionResult.cs" />
     <Compile Include="StaticFileHandler.cs" />
-    <Compile Include="HttpNotFound.cs" />
-    <Compile Include="HttpRequest.cs" />
+    <Compile Include="Http\HttpNotFound.cs" />
+    <Compile Include="Http\HttpRequest.cs" />
     <Compile Include="Controller.cs" />
-    <Compile Include="HttpResponse.cs" />
-    <Compile Include="IActionResult.cs" />
-    <Compile Include="IResponseProvider.cs" />
+    <Compile Include="Http\HttpResponse.cs" />
+    <Compile Include="ActionCommon\IActionResult.cs" />
+    <Compile Include="Http\IResponseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ActionDescriptor.cs" />
-    <Compile Include="ResponseProvider.cs" />
+    <Compile Include="ActionCommon\ActionDescriptor.cs" />
+    <Compile Include="Http\ResponseProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

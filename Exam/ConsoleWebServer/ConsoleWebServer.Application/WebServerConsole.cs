@@ -2,7 +2,7 @@
 {
     using System;
     using System.Text;
-    using ConsoleWebServer.Framework;
+    using ConsoleWebServer.Framework.Http;
 
     public class WebServerConsole
     {

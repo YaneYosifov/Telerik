@@ -1,7 +1,8 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionCommon
 {
     using System.Linq;
     using System.Reflection;
+    using ConsoleWebServer.Framework.Http;
 
     public class ActionInvoker
     {
@@ -26,9 +27,9 @@
                 var actionResult = (IActionResult)methodWithIntParameter.Invoke(controller, new object[] { actionDescriptor.Parameter });
                 return actionResult;
             }
-            catch (TargetInvocationException ex)
+            catch (TargetInvocationException exception)
             {
-                throw ex.InnerException;
+                throw exception.InnerException;
             }
         }
     }

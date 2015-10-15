@@ -1,4 +1,4 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionCommon
 {
     internal class NewActionInvoker
     {

@@ -1,6 +1,12 @@
-﻿namespace ConsoleWebServer.Application.Controllers
+﻿using System;
+
+namespace ConsoleWebServer.Application.Controllers
 {
     using ConsoleWebServer.Framework;
+    using ConsoleWebServer.Framework.ActionCommon;
+    using ConsoleWebServer.Framework.ActionContent;
+    using ConsoleWebServer.Framework.Http;
+    using System.Net;
 
     public class HomeController : Controller
     {
@@ -12,6 +18,12 @@
         public IActionResult Index(string param)
         {
             return this.Content("Home page :)");
+        }
+
+        public IActionResult Forum(string param)
+        {
+            return new RedirectActionResult(this.Request, "Location:");
+;
         }
 
         public IActionResult LivePage(string param)

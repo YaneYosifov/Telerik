@@ -1,4 +1,4 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.Http
 {
     using System;
     using System.Collections.Generic;

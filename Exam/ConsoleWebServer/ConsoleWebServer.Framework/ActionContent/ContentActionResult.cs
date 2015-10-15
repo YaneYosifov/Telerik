@@ -1,7 +1,9 @@
-﻿namespace ConsoleWebServer.Framework
+﻿namespace ConsoleWebServer.Framework.ActionContent
 {
     using System.Collections.Generic;
     using System.Net;
+    using ConsoleWebServer.Framework.ActionCommon;
+    using ConsoleWebServer.Framework.Http;
 
     public class ContentActionResult : IActionResult
     {
