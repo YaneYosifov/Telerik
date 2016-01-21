@@ -1,0 +1,32 @@
+GENERAL KNOWLEDGE
+------------------
+Hello! Thanks for your feedback!
+The problem is in .addEventListener() method. It's a native JavaScript method, not a jQuery method. The jQuery equiwalent is the .on() method. Just replace in your code "addEventListener" with "on" and everythings will work fine.
+
+Greetings!
+Yane Yosifov
+
+
+GATHER INFORMATION 
+-------------------
+Hi, <name>! Thank you for choosing our product!
+Please, provide more information. How your code looks like? What steps you followed to implement it? Plese paste a sample and describe what is the effect you are looking for.
+
+
+ISOLATE A PROBLEM 
+------------------
+Hello, <name>!
+
+Just modify your code to this:
+$('#home-page-content').css("background-color", "red");
+$('#courses-page-content').css("background-color", "green");
+$('#about-page-content').css("background-color", "yellow");
+$('#contact-page-content').css("background-color", "blue");
+
+or this:
+$('#home-page-content').css({"background-color": "red"});
+$('#courses-page-content').css({"background-color": "green"});
+$('#about-page-content').css({"background-color": "yellow"});
+$('#contact-page-content').css({"background-color": "blue"});
+
+Good luck with jQuery!
