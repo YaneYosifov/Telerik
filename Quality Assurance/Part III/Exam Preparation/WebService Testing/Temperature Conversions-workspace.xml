@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="Temperature Conversions" soapui-version="5.1.1" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="TemperatureConversions">D:/Telerik Academy/Quality Assurance/Part III/Exam Preparation/WebService Testing/TemperatureConversions-soapui-project.xml</con:project>
+</con:soapui-workspace>
